@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>B3_T1</title>
+
+   
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<!-- icons link -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+<link href="assets/css/bootstrap.min.css">
+<link href="assets/css/style.css"  type="stylesheet">
+<script src="assets/js/bootstrap.min.js"></script>
+
+
+<style>
+.navbar-brand img{
+    margin-top: -15px !important;
+    height: 50px !important;
+    
+}
+
+.navbar{border-radius: 0%;
+    margin-bottom: 0%;
+   }
+
+   li{
+       color:rgb(92, 92, 156); 
+   }
+
+/* #banner {
+    background:
+    url(../images/banner1.jpg)no-repeat;
+    height: 500px;
+    
+} */
+
+.text-block{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    top: 0px;
+    width: 97.5%;
+    color: white;
+    padding: 10px;
+
+}
+
+#banner #bannerImg{
+    height: 550px;
+    width: 100%;
+}
+
+#intro {
+    padding: 20px;
+}
+ form{
+     padding: 10px;
+     background-color: silver;
+     display: block;
+     border-radius: 10px;
+ }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+
+
+
+</style>
+
+  
+</head>
+<body>
+
+    <nav class="navbar  navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <!-- <span class="sr-only">Toggle navigation</span> -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.png" class="img-responsive"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">About US</a></li>
+                    <li><a href="#">Contact US</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                    <li data-toggle="modal" data-target="#login"><a href="#">Login <i class="glyphicon glyphicon-user"></i></a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+<!-- first container -->
+        <div class="container" id="banner">
+            <div class="row">
+            <div class="col-md-12">
+            <img src="assets/images/banner3.jpg" alt="bannerImg" id="bannerImg" class="img-responsive img-thumbnail">
+            <div class="text-block">
+                <h4>My First Template</h4>
+                <P>Welcome To The Bootstrap Template..!!</P>
+            </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- second container -->
+      <div class="container text-center" id="intro">
+          <h3>What I Want..</h3>
+          <p>loreum ipsm loreum ipsm loreum ipsm loreum ipsm loreum ipsm loreum ipsm loreum ipsm loreum ipsm loreum ipsm 
+            loreum ipsm loreum ipsm loreum ipsmloreum ipsmloreum ipsmloreum ipsmloreum ipsmloreum ipsmloreum ipsmloreum ipsm
+            loreum ipsmloreum ipsmloreum ipsmloreum ipsmloreum ipsmloreum ipsm
+          </p>
+          <button type="button" class="btn btn-primary" >
+              <span class="glyphicon glyphicon-search"></span> Search</button>
+      </div>
+
+      <!-- Third container -->
+      <div class="container-fluid">
+          <div class="row jumbotron text-center">
+              <div class="col-md-6">
+                  <h3 style="padding:10px; top:5px; background-color:silver; border-radius:10px;">Course Information</h3>
+                  <div class="table-responsive">
+                  <table class="table table-bordered table-condensed table-hover">
+                      <tr class="info">
+                      <th>Sr. No.</th>
+                      <th>Course Name</th>
+                      <th>Course Fees</th>
+                      <th>Course Duration</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>React Native</td>
+                        <td>12000</td>
+                        <td>2 Months</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Angular</td>
+                        <td>8000</td>
+                        <td>1 Months</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Flutter</td>
+                        <td>12000</td>
+                        <td>3 Months</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Django</td>
+                        <td>14000</td>
+                        <td>3 Months</td>
+                        </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                  
+                  <form action="">
+                    <h3 class="text-center">Any Query??</h3>
+                      <div class="form-group">
+                          <label class="control-label col-sm-2" for="email">Email</label>
+                          <input type="text" class="form-control"  id="email">
+                      </div>
+
+                      <div class="form-group">
+                          <label class="control-label col-sm-2" for="pwd">Password</label>
+                          <input type="password" class="form-control" id="pwd">
+                      </div>
+                   
+                    <div class="form-group">
+                            <label class="control-label col-sm-2" for="msg">Message:</label>
+                            <textarea class="form-control" rows="3" id="msg"></textarea>
+                          </div>
+                    <div class="form-group">
+                        <span><button class="btn btn-success">Send</button></span>
+                        <span><button class="btn btn-danger">Cancel</button></span>
+                    </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+    
+      <footer class="container-fluid bg-4 text-center">
+        <p>Bootstrap Theme Made By <a href="#">Sample BT3 Template</a></p> 
+      </footer>
+            
+</body>
+</html>
